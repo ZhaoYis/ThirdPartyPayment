@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Form_6_3_OpenQuery.aspx.cs" Inherits="ThirdPartyPaymentUI.ChinaPay.wtz.Form_6_3_OpenQuery" %>

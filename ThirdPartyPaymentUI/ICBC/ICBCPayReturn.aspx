@@ -1,0 +1,1 @@
+﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ICBCPayReturn.aspx.cs" Inherits="ThirdPartyPaymentUI.ICBC.ICBCPayReturn" %>--%>

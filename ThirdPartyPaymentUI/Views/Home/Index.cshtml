@@ -1,0 +1,127 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        ul {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 0;
+        }
+
+        li {
+            width: 32%;
+            float: left;
+            margin: 0px;
+            margin-left: 1%;
+            padding: 0px;
+            height: 100px;
+            display: inline;
+            line-height: 100px;
+            color: #fff;
+            font-size: x-large;
+            word-break: break-all;
+            word-wrap: break-word;
+            margin-bottom: 5px;
+            background-color: #00CD00;
+        }
+
+        a {
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            text-decoration: none;
+            color: #fff;
+        }
+
+            a:link {
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                text-decoration: none;
+                color: #fff;
+            }
+
+            a:visited {
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                text-decoration: none;
+                color: #fff;
+            }
+
+            a:hover {
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                text-decoration: none;
+                color: #fff;
+            }
+
+            a:active {
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                text-decoration: none;
+                color: #fff;
+            }
+    </style>
+</head>
+<body>
+    <div align="center">
+        @*<ul>
+                <li style="background-color: #00CD00"><a href="http://paysdk.weixin.qq.com/example/ProductPage.aspx">JSAPI支付</a></li>
+                <li style="background-color: #00CD00"><a href="http://paysdk.weixin.qq.com/example/MicroPayPage.aspx">刷卡支付</a></li>
+                <li style="background-color: #00CD00"><a href="http://paysdk.weixin.qq.com/example/NativePayPage.aspx">扫码支付</a></li>
+                <li style="background-color: #00CD00"><a href="http://paysdk.weixin.qq.com/example/OrderQueryPage.aspx">订单查询</a></li>
+                <li style="background-color: #00CD00"><a href="http://paysdk.weixin.qq.com/example/RefundPage.aspx">订单退款</a></li>
+                <li style="background-color: #00CD00"><a href="http://paysdk.weixin.qq.com/example/RefundQueryPage.aspx">退款查询</a></li>
+                <li style="background-color: #00CD00"><a href="http://paysdk.weixin.qq.com/example/DownloadBillPage.aspx">下载账单</a></li>
+            </ul>*@
+
+        <ul>
+            <li style="background-color: #00CD00"><a href="http://localhost:62335/WeChat/ProductPage.aspx">JSAPI支付</a></li>
+            <li style="background-color: #00CD00"><a href="http://localhost:62335/WeChat/MicroPayPage.aspx">刷卡支付</a></li>
+            <li style="background-color: #00CD00"><a href="http://localhost:62335/WeChat/NativePayPage.aspx">扫码支付</a></li>
+            <li style="background-color: #00CD00"><a href="http://localhost:62335/WeChat/OrderQueryPage.aspx">订单查询</a></li>
+            <li style="background-color: #00CD00"><a href="http://localhost:62335/WeChat/RefundPage.aspx">订单退款</a></li>
+            <li style="background-color: #00CD00"><a href="http://localhost:62335/WeChat/RefundQueryPage.aspx">退款查询</a></li>
+            <li style="background-color: #00CD00"><a href="http://localhost:62335/WeChat/DownloadBillPage.aspx">下载账单</a></li>
+        </ul>
+    </div>
+
+    <div align="center">
+        <div id="tabs-api-2">
+            <div id="tabs-purchase">
+                <ul>
+                    <li style="background-color: red"><a href="#tabs-purchase-1">跳转网关页面支付说明</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/consume.aspx">跳转网关页面支付</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/query.aspx">交易状态查询</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/consume_undo.aspx">消费撤销</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/refund.aspx">退货</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/file_transfer.aspx">对账文件下载</a></li>
+                </ul>
+                <div id="tabs-purchase-1">
+                    <!--#include file="~/ChinaPay/Pages/Template/consume_intro.htm"-->
+                </div>
+            </div>
+        </div>
+
+        <div id="tabs-api-3">
+            <div id="tabs-preauth">
+                <ul>
+                    <li style="background-color: red"><a href="#tabs-preauth-1">跳转网关页面预授权说明</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/preauth.aspx">跳转网关页面预授权</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/query.aspx">交易状态查询</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/preauth_finish.aspx">预授权完成</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/preauth_undo.aspx">预授权撤销</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/preauth_finish_undo.aspx">预授权完成撤销</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/refund.aspx">退货</a></li>
+                    <li><a href="http://localhost:62335/ChinaPay/Pages/file_transfer.aspx">对账文件下载</a></li>
+                </ul>
+                <div id="tabs-preauth-1">
+                    <!--#include file="~/ChinaPay/Pages/Template/preauth_intro.htm"-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

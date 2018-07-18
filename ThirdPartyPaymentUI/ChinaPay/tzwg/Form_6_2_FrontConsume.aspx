@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Form_6_2_FrontConsume.aspx.cs" Inherits="ThirdPartyPaymentUI.ChinaPay.Form_6_2_FrontConsume" %>
